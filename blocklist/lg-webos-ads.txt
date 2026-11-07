@@ -1,0 +1,12 @@
+# LG webOS ad and tracking domains
+# For Pi-hole, AdGuard Home, or a router with DNS blocking.
+# Leave snu.lge.com and lgtvsdp.com UNBLOCKED: they handle firmware updates and the app store.
+ad.lgappstv.com
+lgad.cjpowercast.com
+lgsmartad.com
+info.lgsmartad.com
+us.info.lgsmartad.com
+us.ad.lgsmartad.com
+ngfts.lge.com
+smartshare.lgtvsdp.com
+us.lgtvsdp.com.edgesuite.net
