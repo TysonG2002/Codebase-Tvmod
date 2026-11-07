@@ -26,3 +26,14 @@ then set the TV's DNS to that device: **General > Network > Wired/Wi-Fi > Edit >
 
 This removes most home-screen banners. It won't remove ads inside YouTube or other streaming apps,
 since those come from the same servers as the video.
+
+### One-command setup on your computer
+The computer must stay on and connected to the same network as the TV.
+- **Windows:** open PowerShell as Administrator in this folder, then run
+  `powershell -ExecutionPolicy Bypass -File scripts\setup-adguard.ps1`
+- **Mac / Linux:** open Terminal in this folder, then run
+  `sudo bash scripts/setup-adguard.sh`
+
+At the end it prints the DNS address to enter on the TV.
+Tip: in your router settings, reserve that address for the computer so it doesn't change.
+If the TV ever loses internet, set its DNS back to Automatic.
